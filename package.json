@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-iter-chisquare",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Create an iterator for generating pseudorandom numbers drawn from a chi-square distribution.",
   "license": "Apache-2.0",
   "author": {
