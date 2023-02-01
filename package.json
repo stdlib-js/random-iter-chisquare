@@ -43,7 +43,7 @@
     "@stdlib/assert-is-positive-number": "^0.0.x",
     "@stdlib/constants-float64-max": "^0.0.x",
     "@stdlib/random-base-chisquare": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/symbol-iterator": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
