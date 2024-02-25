@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-iter-chisquare/tags). For example,
+
+```javascript
 iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var iterator = require( 'path/to/vendor/umd/random-iter-chisquare/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -220,7 +225,7 @@ The returned iterator protocol-compliant object has the following properties:
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
