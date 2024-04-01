@@ -35,19 +35,32 @@ limitations under the License.
 
 > Create an iterator for generating pseudorandom numbers drawn from a [chi-square][chi-square] distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-iter-chisquare
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-iter-chisquare/tags). For example,
-
-```javascript
-import iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@v0.2.1-deno/mod.js';
+var iterator = require( '@stdlib/random-iter-chisquare' );
 ```
 
 #### iterator( k\[, options] )
@@ -90,7 +103,7 @@ The function accepts the following `options`:
 To use a custom PRNG as the underlying source of uniformly distributed pseudorandom numbers, set the `prng` option.
 
 ```javascript
-import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-minstd@deno/mod.js';
+var minstd = require( '@stdlib/random-base-minstd' );
 
 var it = iterator( 2.0, {
     'prng': minstd.normalized
@@ -198,7 +211,7 @@ The returned iterator protocol-compliant object has the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-chisquare@deno/mod.js';
+var iterator = require( '@stdlib/random-iter-chisquare' );
 
 var it;
 var r;
@@ -246,7 +259,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -276,8 +289,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-iter-chisquare.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-iter-chisquare
 
-[test-image]: https://github.com/stdlib-js/random-iter-chisquare/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/random-iter-chisquare/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/random-iter-chisquare/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/random-iter-chisquare/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-iter-chisquare/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-iter-chisquare?branch=main
@@ -311,11 +324,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [chi-square]: https://en.wikipedia.org/wiki/Chi-squared_distribution
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/deno
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
 <!-- <related-links> -->
 
-[@stdlib/random/base/chisquare]: https://github.com/stdlib-js/random-base-chisquare/tree/deno
+[@stdlib/random/base/chisquare]: https://github.com/stdlib-js/random-base-chisquare
 
 <!-- </related-links> -->
 
