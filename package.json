@@ -44,7 +44,7 @@
     "@stdlib/constants-float64-max": "^0.2.2",
     "@stdlib/object-assign": "^0.2.2",
     "@stdlib/random-base-chisquare": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/symbol-iterator": "^0.2.2",
     "@stdlib/types": "^0.4.1",
     "@stdlib/utils-constant-function": "^0.2.2",
